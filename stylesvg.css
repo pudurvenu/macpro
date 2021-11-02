@@ -1,0 +1,55 @@
+.trial{
+
+position: absolute;
+background: 	#ffffff;
+display: block;
+justify-content: center;
+align-items: center;
+text-align: center;
+border:1px solid white;
+color: white;
+top: -100px;
+width: 500px;
+height: 3000px;
+}
+
+video{
+position: absolute;
+text-align: center;
+align-items: center;
+float: center;
+margin-right: auto;
+top: 190px;
+left: 360px;
+width: 800;
+height: 600;
+border-radius: 5px;
+}
+
+img{
+width:100%;
+height:60%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+img{
+margin-top: 140px;
+left: 30px;
+width: 100%;
+height: 150%;
+}
+
+video{
+
+top: 215px;
+left: 30px;
+width: 320px;
+height: 120px;
+border-radius: 5px;
+}
+
+
+}
